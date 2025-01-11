@@ -43,6 +43,7 @@ section {
 
 }
 
+/* navbar */
 
 .navbar {
     background: #f4f7f9;
@@ -60,19 +61,17 @@ section {
     display: flex;
     gap: 15px;
 }
-
-.navbar nav a {
-    text-decoration: none;
+.navbar button {
+    background-color: #FFFFFF;
     color: #009879;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background 0.3s;
+    border: 2px solid #009879;
 }
-
-.navbar nav a:hover {
-    background: #009879;
-    color: #fff;
+.navbar button:hover {
+    background-color: #009879;
+    color: #FFFFFF;
+    border: 2px solid #009879;
 }
+ 
 /* banner section */
 #banner {
     background-color: #C6E4D6;
@@ -187,7 +186,20 @@ section {
 
 }
 
-
+#vision .vision-qut {
+    background-color: #FFFFFF;
+    margin: 32px 0;
+    padding: 48px;
+    border-radius: 16px;
+}
+#vision .vision-qut .p-1 {
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+}
+#vision .vision-qut h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
 
 
 
