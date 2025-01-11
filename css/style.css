@@ -292,7 +292,7 @@ section {
 
 /* news letter */
 
-.newsletter {
+#newsletter {
     background-color: #C6E4D6;
     text-align: center;
     margin: 40px auto;
@@ -300,14 +300,19 @@ section {
     padding: 20px;
     border-radius: 5px;
 }
-
-.opinion form {
-    display: flex;
-    flex-direction: column;
+#newsletter .news-content {
+    text-align: center;
 }
-
-.opinion form div {
-    margin-bottom: 10px;
+#newsletter .news-content .btn {
+    border-radius: 0 8px 8px 0;
+    margin: 0;
+    
+}
+#newsletter .news-content input {
+    width: 650px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px 0 0 8px;
 }
 
 /* footer sextion */
